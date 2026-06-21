@@ -1,0 +1,272 @@
+[
+  {
+    "t": "Leverhulme Early Career Fellowships",
+    "u": "https://www.leverhulme.ac.uk/early-career-fellowships",
+    "c": "Fellowships and awards",
+    "s": "Early career",
+    "scope": "UK",
+    "cost": "Free",
+    "day": "",
+    "mon": "Autumn",
+    "desc": "Three-year fellowships giving early-career researchers time to build an independent line of work.",
+    "tags": [
+      "fellowship",
+      "post-PhD",
+      "independent"
+    ],
+    "source": "curated",
+    "status": "published"
+  },
+  {
+    "t": "1851 Research Fellowship",
+    "u": "https://royalcommission1851.org/fellowships/research-fellowships",
+    "c": "Fellowships and awards",
+    "s": "Early career",
+    "scope": "UK",
+    "cost": "Free",
+    "day": "",
+    "mon": "Spring",
+    "desc": "Prestigious fellowship for researchers in science and engineering at an early career stage.",
+    "tags": [
+      "fellowship",
+      "STEM",
+      "prestige"
+    ],
+    "source": "curated",
+    "status": "published"
+  },
+  {
+    "t": "Marie Skłodowska-Curie Postdoctoral Fellowships",
+    "u": "https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships",
+    "c": "Funding opportunities",
+    "s": "Early career",
+    "scope": "Europe",
+    "cost": "Free",
+    "day": "",
+    "mon": "Sept",
+    "desc": "EU postdoctoral funding supporting mobility, training and career development.",
+    "tags": [
+      "postdoc",
+      "Europe",
+      "mobility"
+    ],
+    "source": "curated",
+    "status": "published"
+  },
+  {
+    "t": "UKRI Future Leaders Fellowships",
+    "u": "https://www.ukri.org/what-we-do/developing-people-and-skills/future-leaders-fellowships/",
+    "c": "Funding opportunities",
+    "s": "Mid-career",
+    "scope": "UK",
+    "cost": "Free",
+    "day": "",
+    "mon": "Rolling",
+    "desc": "Substantial funding to help researchers and innovators establish leadership in their field.",
+    "tags": [
+      "leadership",
+      "grant",
+      "UKRI"
+    ],
+    "source": "curated",
+    "status": "published"
+  },
+  {
+    "t": "Aurora Leadership Programme",
+    "u": "https://advance-he.ac.uk/programmes-events/aurora",
+    "c": "Leadership programmes",
+    "s": "All stages",
+    "scope": "UK",
+    "cost": "Paid",
+    "day": "",
+    "mon": "Annual",
+    "desc": "Advance HE leadership development designed specifically for women in higher education.",
+    "tags": [
+      "leadership",
+      "women",
+      "development"
+    ],
+    "source": "curated",
+    "status": "published"
+  },
+  {
+    "t": "Athena Swan Charter resources",
+    "u": "https://advance-he.ac.uk/equality-charters/athena-swan-charter",
+    "c": "EDI resources",
+    "s": "All stages",
+    "scope": "UK",
+    "cost": "Free",
+    "day": "",
+    "mon": "Rolling",
+    "desc": "Framework and toolkits for advancing gender equality in higher education and research.",
+    "tags": [
+      "gender",
+      "framework",
+      "institutional"
+    ],
+    "source": "curated",
+    "status": "published"
+  },
+  {
+    "t": "Vitae Researcher Development Framework",
+    "u": "https://www.vitae.ac.uk/researchers-professional-development/about-the-vitae-researcher-development-framework",
+    "c": "Career development",
+    "s": "PhD",
+    "scope": "UK",
+    "cost": "Free",
+    "day": "",
+    "mon": "Rolling",
+    "desc": "A structured map of researcher skills with planning tools for every career stage.",
+    "tags": [
+      "skills",
+      "planning",
+      "PhD"
+    ],
+    "source": "curated",
+    "status": "published"
+  },
+  {
+    "t": "Shut Up and Write sessions",
+    "u": "https://thesiswhisperer.com/shut-up-and-write/",
+    "c": "Writing and publishing",
+    "s": "All stages",
+    "scope": "Global",
+    "cost": "Free",
+    "day": "",
+    "mon": "Weekly",
+    "desc": "Community writing sessions that build momentum through focused, shared writing time.",
+    "tags": [
+      "writing",
+      "community",
+      "habit"
+    ],
+    "source": "curated",
+    "status": "published"
+  },
+  {
+    "t": "Education Support helpline",
+    "u": "https://www.educationsupport.org.uk/get-help/help-for-you/helpline/",
+    "c": "Mental health and wellbeing",
+    "s": "All stages",
+    "scope": "UK",
+    "cost": "Free",
+    "day": "",
+    "mon": "24/7",
+    "desc": "Free, confidential emotional support and counselling for everyone working in education.",
+    "tags": [
+      "confidential",
+      "helpline",
+      "support"
+    ],
+    "source": "curated",
+    "status": "published"
+  },
+  {
+    "t": "Daphne Jackson Fellowships",
+    "u": "https://daphnejackson.org/fellowships/",
+    "c": "Fellowships and awards",
+    "s": "Returners",
+    "scope": "UK",
+    "cost": "Free",
+    "day": "",
+    "mon": "Rolling",
+    "desc": "Flexible fellowships to help researchers return after a career break of two years or more.",
+    "tags": [
+      "returners",
+      "flexible",
+      "career break"
+    ],
+    "source": "curated",
+    "status": "published"
+  },
+  {
+    "t": "Maternity and parental leave in academia",
+    "u": "https://www.gov.uk/maternity-pay-leave",
+    "c": "Parental leave and flexible working",
+    "s": "All stages",
+    "scope": "UK",
+    "cost": "Free",
+    "day": "",
+    "mon": "Rolling",
+    "desc": "Plain-language guidance on rights, leave and flexible working for academic parents.",
+    "tags": [
+      "parental",
+      "rights",
+      "flexible"
+    ],
+    "source": "curated",
+    "status": "published"
+  },
+  {
+    "t": "The 1752 Group resources",
+    "u": "https://1752group.com/",
+    "c": "Anti-harassment and reporting",
+    "s": "All stages",
+    "scope": "UK",
+    "cost": "Free",
+    "day": "",
+    "mon": "Rolling",
+    "desc": "Research-led guidance on tackling staff-to-student sexual misconduct in higher education.",
+    "tags": [
+      "safety",
+      "reporting",
+      "confidential"
+    ],
+    "source": "curated",
+    "status": "published"
+  },
+  {
+    "t": "L’Oréal-UNESCO For Women in Science",
+    "u": "https://www.forwomeninscience.com/",
+    "c": "Funding opportunities",
+    "s": "Early career",
+    "scope": "Global",
+    "cost": "Free",
+    "day": "",
+    "mon": "Spring",
+    "desc": "Awards and fellowships recognising and funding women researchers in science.",
+    "tags": [
+      "women",
+      "science",
+      "award"
+    ],
+    "source": "curated",
+    "status": "published"
+  },
+  {
+    "t": "Three Minute Thesis (3MT)",
+    "u": "https://threeminutethesis.uq.edu.au/",
+    "c": "Teaching and public engagement",
+    "s": "PhD",
+    "scope": "Global",
+    "cost": "Free",
+    "day": "",
+    "mon": "Annual",
+    "desc": "A competition that builds skills in communicating research clearly to a wide audience.",
+    "tags": [
+      "engagement",
+      "communication",
+      "PhD"
+    ],
+    "source": "curated",
+    "status": "published"
+  },
+  {
+    "t": "WHEN in Motion wellness sessions",
+    "u": "https://www.qmul.ac.uk/eecs/about-us/equality-diversity-and-inclusion/eecs-women-higher-education-network-when",
+    "c": "Conferences and communities",
+    "s": "All stages",
+    "scope": "UK",
+    "cost": "Free",
+    "day": "",
+    "mon": "Monthly",
+    "desc": "The network’s own recurring wellbeing and community events, open to all members.",
+    "tags": [
+      "community",
+      "wellbeing",
+      "events"
+    ],
+    "source": "curated",
+    "status": "published"
+  }
+]
