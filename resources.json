@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-21",
+  "updated": "2026-06-23",
   "count": 15,
   "auto_added": 0,
   "resources": [
@@ -19,7 +19,8 @@
         "independent"
       ],
       "source": "curated",
-      "status": "published"
+      "status": "published",
+      "link_ok": false
     },
     {
       "t": "1851 Research Fellowship",
@@ -37,7 +38,8 @@
         "prestige"
       ],
       "source": "curated",
-      "status": "published"
+      "status": "published",
+      "link_ok": true
     },
     {
       "t": "Marie Skłodowska-Curie Postdoctoral Fellowships",
@@ -55,7 +57,8 @@
         "mobility"
       ],
       "source": "curated",
-      "status": "published"
+      "status": "published",
+      "link_ok": true
     },
     {
       "t": "UKRI Future Leaders Fellowships",
@@ -73,7 +76,8 @@
         "UKRI"
       ],
       "source": "curated",
-      "status": "published"
+      "status": "published",
+      "link_ok": false
     },
     {
       "t": "Aurora Leadership Programme",
@@ -91,7 +95,8 @@
         "development"
       ],
       "source": "curated",
-      "status": "published"
+      "status": "published",
+      "link_ok": true
     },
     {
       "t": "Athena Swan Charter resources",
@@ -109,7 +114,8 @@
         "institutional"
       ],
       "source": "curated",
-      "status": "published"
+      "status": "published",
+      "link_ok": true
     },
     {
       "t": "Vitae Researcher Development Framework",
@@ -127,7 +133,8 @@
         "PhD"
       ],
       "source": "curated",
-      "status": "published"
+      "status": "published",
+      "link_ok": false
     },
     {
       "t": "Shut Up and Write sessions",
@@ -145,7 +152,8 @@
         "habit"
       ],
       "source": "curated",
-      "status": "published"
+      "status": "published",
+      "link_ok": true
     },
     {
       "t": "Education Support helpline",
@@ -163,7 +171,8 @@
         "support"
       ],
       "source": "curated",
-      "status": "published"
+      "status": "published",
+      "link_ok": true
     },
     {
       "t": "Daphne Jackson Fellowships",
@@ -181,7 +190,8 @@
         "career break"
       ],
       "source": "curated",
-      "status": "published"
+      "status": "published",
+      "link_ok": true
     },
     {
       "t": "Maternity and parental leave in academia",
@@ -199,7 +209,8 @@
         "flexible"
       ],
       "source": "curated",
-      "status": "published"
+      "status": "published",
+      "link_ok": true
     },
     {
       "t": "The 1752 Group resources",
@@ -217,7 +228,8 @@
         "confidential"
       ],
       "source": "curated",
-      "status": "published"
+      "status": "published",
+      "link_ok": true
     },
     {
       "t": "L’Oréal-UNESCO For Women in Science",
@@ -235,7 +247,8 @@
         "award"
       ],
       "source": "curated",
-      "status": "published"
+      "status": "published",
+      "link_ok": true
     },
     {
       "t": "Three Minute Thesis (3MT)",
@@ -253,7 +266,8 @@
         "PhD"
       ],
       "source": "curated",
-      "status": "published"
+      "status": "published",
+      "link_ok": true
     },
     {
       "t": "WHEN in Motion wellness sessions",
@@ -271,7 +285,8 @@
         "events"
       ],
       "source": "curated",
-      "status": "published"
+      "status": "published",
+      "link_ok": false
     }
   ]
 }
