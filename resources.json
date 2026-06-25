@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23",
+  "updated": "2026-06-25",
   "count": 15,
   "auto_added": 0,
   "resources": [
@@ -96,7 +96,7 @@
       ],
       "source": "curated",
       "status": "published",
-      "link_ok": true
+      "link_ok": false
     },
     {
       "t": "Athena Swan Charter resources",
@@ -115,7 +115,7 @@
       ],
       "source": "curated",
       "status": "published",
-      "link_ok": true
+      "link_ok": false
     },
     {
       "t": "Vitae Researcher Development Framework",
