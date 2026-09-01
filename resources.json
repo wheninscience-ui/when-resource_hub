@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31",
+  "updated": "2026-09-01",
   "count": 15,
   "auto_added": 0,
   "resources": [
@@ -115,7 +115,7 @@
       ],
       "source": "curated",
       "status": "published",
-      "link_ok": true
+      "link_ok": false
     },
     {
       "t": "Vitae Researcher Development Framework",
