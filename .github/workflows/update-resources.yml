@@ -1,15 +1,18 @@
 name: Update WHEN resources
 
-# Runs every 48 hours (and on manual trigger). Fetches new fellowships,
-# refreshes resources.json, and commits it back so the site updates itself.
+# Runs every Monday morning (and whenever you press "Run workflow").
+# Refreshes deadlines, watches the official fellowship pages and commits
+# resources.json so the site updates itself. If a fellowship page changed,
+# a deadline is close, or a link is broken, it opens a GitHub Issue.
 
 on:
   schedule:
-    - cron: "0 6 */2 * *"   # 06:00 UTC, every 2nd day
-  workflow_dispatch:         # lets you run it by hand from the Actions tab
+    - cron: "17 6 * * 1"   # 06:17 UTC every Monday
+  workflow_dispatch:
 
 permissions:
-  contents: write            # needed so the action can commit resources.json
+  contents: write
+  issues: write
 
 jobs:
   update:
@@ -29,14 +32,56 @@ jobs:
       - name: Run updater
         run: python update_resources.py
 
+      - name: Weekly social posts (Bluesky, and a LinkedIn draft)
+        env:
+          BSKY_HANDLE: ${{ secrets.BSKY_HANDLE }}
+          BSKY_APP_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
+        run: |
+          pip install pillow
+          python social_bot.py
+
       - name: Commit changes if any
         run: |
           git config user.name "when-hub-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add resources.json
+          git add resources.json watch_state.json deadlines.ics DIGEST.md DIGEST.html SOCIAL.md bluesky_state.json
+          git add social/*.png 2>/dev/null || true
           if git diff --staged --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "Auto-update resources ($(date -u +%Y-%m-%d))"
+            git commit -m "Weekly update ($(date -u +%Y-%m-%d))"
             git push
+          fi
+
+      - name: Monthly email digest (first Monday of the month)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ "$(date -u +%d)" -le 7 ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            { echo "Email version, ready to copy into Outlook (wait a few minutes for the site to update): https://wheninscience-ui.github.io/when-resource_hub/DIGEST.html . Open it, select all, copy and paste into a new email."; echo; echo '```'; cat DIGEST.md; echo '```'; } > digest_issue.md
+            gh issue create \
+              --title "Monthly selection for the mailing list ($(date -u +'%B %Y'))" \
+              --body-file digest_issue.md
+          fi
+
+      - name: LinkedIn post for this week (arrives by email to repository watchers)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if grep -q "^## " SOCIAL.md; then
+            gh issue create \
+              --title "Posts for this week ($(date -u +'%d %b %Y'))" \
+              --body-file SOCIAL.md
+          fi
+
+      - name: Open an issue when something needs a human check
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ -s CHANGES.md ]; then
+            gh issue create \
+              --title "Resource Hub: fellowships to check ($(date -u +'%d %b %Y'))" \
+              --body-file CHANGES.md
+          else
+            echo "Nothing to check this week."
           fi

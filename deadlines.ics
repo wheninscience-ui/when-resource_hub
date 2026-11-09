@@ -1,0 +1,77 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//WHEN//Resource Hub//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:WHEN fellowship deadlines
+X-PUBLISHED-TTL:P1W
+BEGIN:VEVENT
+UID:7803ca78f29eeee9@when-resource-hub
+DTSTAMP:20261109T000957Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Deadline: Royal Society Career Development Fellowship
+DESCRIPTION:A four-year fellowship for early-career researchers of Black h
+ eritage in the natural sciences at a UK host organisation. Includes reloc
+ ation and visa costs. Check the official page: https://royalsociety.org/g
+ rants/career-development-fellowship
+URL:https://royalsociety.org/grants/career-development-fellowship
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P14D
+DESCRIPTION:Two weeks left: Royal Society Career Development Fellowship
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:69f99d428f9ce834@when-resource-hub
+DTSTAMP:20261109T000957Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:Deadline: AHRC Stuart Hall Foundation Studentships (Sussex)
+DESCRIPTION:PhD studentships in media\, arts and humanities for Black Brit
+ ish and British minority ethnic researchers\, with a three-month placemen
+ t. Up to two awards. Closes at 16:00. Check the official page: https://ww
+ w.sussex.ac.uk/study/fees-funding/phd-funding/view/1964-AHRC-Doctoral-Lan
+ dscape-Award-Stuart-Hall-Foundation-Studentships
+URL:https://www.sussex.ac.uk/study/fees-funding/phd-funding/view/1964-AHRC
+ -Doctoral-Landscape-Award-Stuart-Hall-Foundation-Studentships
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P14D
+DESCRIPTION:Two weeks left: AHRC Stuart Hall Foundation Studentships (Suss
+ ex)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e685b74128458532@when-resource-hub
+DTSTAMP:20261109T000957Z
+DTSTART;VALUE=DATE:20270105
+DTEND;VALUE=DATE:20270106
+SUMMARY:Deadline: Ruth Hayman Trust grants
+DESCRIPTION:Small grants for education and training costs\, such as exam f
+ ees and materials\, for adults whose first language is not English. No gr
+ ants for PhDs. Check the official page: https://ruthhaymantrust.org.uk/
+URL:https://ruthhaymantrust.org.uk/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P14D
+DESCRIPTION:Two weeks left: Ruth Hayman Trust grants
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bf611aabb1f7de0a@when-resource-hub
+DTSTAMP:20261109T000957Z
+DTSTART;VALUE=DATE:20270112
+DTEND;VALUE=DATE:20270113
+SUMMARY:Deadline: ERC Consolidator Grants
+DESCRIPTION:Up to five years of funding to consolidate an independent team
+  and research programme at a host in Europe.  Check the official page: ht
+ tps://erc.europa.eu/apply-grant/consolidator-grant
+URL:https://erc.europa.eu/apply-grant/consolidator-grant
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P14D
+DESCRIPTION:Two weeks left: ERC Consolidator Grants
+END:VALARM
+END:VEVENT
+END:VCALENDAR

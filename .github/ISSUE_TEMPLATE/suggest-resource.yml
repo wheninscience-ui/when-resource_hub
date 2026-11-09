@@ -1,0 +1,24 @@
+name: Suggest a resource
+description: Propose a fellowship, award or support resource for the WHEN Resource Hub
+title: "Suggestion: "
+labels: ["suggestion"]
+body:
+  - type: input
+    id: name
+    attributes: {label: Name of the resource}
+    validations: {required: true}
+  - type: input
+    id: link
+    attributes: {label: Official link}
+    validations: {required: true}
+  - type: dropdown
+    id: stage
+    attributes:
+      label: Career stage
+      options: [PhD, Early career, Mid-career, Returners, All stages]
+  - type: input
+    id: deadline
+    attributes: {label: Next deadline (if known, YYYY-MM-DD)}
+  - type: textarea
+    id: why
+    attributes: {label: Who it is for and why it is useful}
