@@ -1,44 +1,8 @@
 {
-  "updated": "2026-11-16",
+  "updated": "2026-11-23",
   "count": 128,
   "auto_added": 0,
   "resources": [
-    {
-      "cost": "Free",
-      "source": "curated",
-      "status": "published",
-      "checked": "2026-11-08",
-      "day": "18",
-      "opens": "",
-      "deadline": "2026-11-18",
-      "ff": [],
-      "t": "Royal Society Career Development Fellowship",
-      "u": "https://royalsociety.org/grants/career-development-fellowship",
-      "c": "Fellowships and awards",
-      "s": "Early career",
-      "scope": "UK",
-      "window": "Autumn (yearly)",
-      "desc": "A four-year fellowship for early-career researchers of Black heritage in the natural sciences at a UK host organisation.",
-      "who": "Researchers of Black heritage, including mixed Black heritage, with a PhD and less than 24 months of postdoctoral experience, and a link to the UK.",
-      "amount": "Up to £703,800 over four years",
-      "note": "Includes relocation and visa costs.",
-      "g": [
-        "race"
-      ],
-      "tags": [
-        "fellowship",
-        "postdoc",
-        "stem",
-        "black researchers"
-      ],
-      "max_years": null,
-      "phd_needed": true,
-      "mon": "Nov 2026",
-      "added": "2026-11-08",
-      "dl": "soon",
-      "days_left": 2,
-      "link_ok": true
-    },
     {
       "cost": "Free",
       "source": "curated",
@@ -69,8 +33,8 @@
       ],
       "mon": "Dec 2026",
       "added": "2026-11-08",
-      "dl": "open",
-      "days_left": 24,
+      "dl": "soon",
+      "days_left": 17,
       "link_ok": true
     },
     {
@@ -105,7 +69,7 @@
       "mon": "Jan 2027",
       "added": "2026-11-08",
       "dl": "open",
-      "days_left": 50,
+      "days_left": 43,
       "link_ok": true
     },
     {
@@ -146,7 +110,7 @@
       ],
       "added": "2026-11-08",
       "dl": "open",
-      "days_left": 57,
+      "days_left": 50,
       "link_ok": true
     },
     {
@@ -2104,7 +2068,7 @@
       "mon": "Rolling",
       "added": "2026-11-08",
       "dl": "window",
-      "link_ok": true
+      "link_ok": false
     },
     {
       "cost": "Free",
@@ -3974,6 +3938,41 @@
       "ext": "child18",
       "note": "From the 2027 call the time limit changed to 0 to 10 years after the PhD (before, 2 to 7).",
       "added": "2026-10-01",
+      "dl": "closed",
+      "link_ok": true
+    },
+    {
+      "cost": "Free",
+      "source": "curated",
+      "status": "published",
+      "checked": "2026-11-08",
+      "day": "",
+      "opens": "",
+      "deadline": "2026-11-18",
+      "ff": [],
+      "t": "Royal Society Career Development Fellowship",
+      "u": "https://royalsociety.org/grants/career-development-fellowship",
+      "c": "Fellowships and awards",
+      "s": "Early career",
+      "scope": "UK",
+      "window": "Autumn (yearly)",
+      "desc": "A four-year fellowship for early-career researchers of Black heritage in the natural sciences at a UK host organisation.",
+      "who": "Researchers of Black heritage, including mixed Black heritage, with a PhD and less than 24 months of postdoctoral experience, and a link to the UK.",
+      "amount": "Up to £703,800 over four years",
+      "note": "Includes relocation and visa costs.",
+      "g": [
+        "race"
+      ],
+      "tags": [
+        "fellowship",
+        "postdoc",
+        "stem",
+        "black researchers"
+      ],
+      "max_years": null,
+      "phd_needed": true,
+      "mon": "Next: Autumn (yearly)",
+      "added": "2026-11-08",
       "dl": "closed",
       "link_ok": true
     }

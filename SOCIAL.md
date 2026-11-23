@@ -1,37 +1,20 @@
-# Posts for the week of 16 November 2026
+# Posts for the week of 23 November 2026
 
 Bluesky: not connected, so nothing was posted (see README).
 LinkedIn: copy the text below and attach the image (right click, save image).
 
-## Resource of the Week 47
+## Resource of the Week 48
 
-![Diversifying Leadership (Advance HE)](https://raw.githubusercontent.com/wheninscience-ui/when-resource_hub/main/social/2026-11-16-diversifying-leadership--advance-he.png)
+![ERC Consolidator Grants](https://raw.githubusercontent.com/wheninscience-ui/when-resource_hub/main/social/2026-11-23-erc-consolidator-grants.png)
 
-Image file: `social/2026-11-16-diversifying-leadership--advance-he.png`
-
-```
-Resource of the Week 47: Diversifying Leadership (Advance HE)
-
-A leadership programme for racially minoritised staff in UK higher education, with action learning sets and an...
-
-Usually opens: Several cohorts a year.
-
-All details on the WHEN Resource Hub: https://wheninscience-ui.github.io/when-resource_hub/
-#WHENResourceOfTheWeek
-```
-
-## Closing soon
-
-![Royal Society Career Development Fellowship](https://raw.githubusercontent.com/wheninscience-ui/when-resource_hub/main/social/2026-11-16-royal-society-career-development-fellows.png)
-
-Image file: `social/2026-11-16-royal-society-career-development-fellows.png`
+Image file: `social/2026-11-23-erc-consolidator-grants.png`
 
 ```
-2 days left: Royal Society Career Development Fellowship
+Resource of the Week 48: ERC Consolidator Grants
 
-A four-year fellowship for early-career researchers of Black heritage in the natural sciences at a UK host...
+Up to five years of funding to consolidate an independent team and research programme at a host in Europe.
 
-Deadline 18 November 2026. Up to £703,800 over four years.
+Deadline 12 January 2027.
 
 All details on the WHEN Resource Hub: https://wheninscience-ui.github.io/when-resource_hub/
 #WHENResourceOfTheWeek
